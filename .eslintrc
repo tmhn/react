@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+      "browser": true,
+      "node": true
+  },
+  "extends": ["airbnb"],
+  "rules": {
+    "camelcase": [0],
+    "comma-dangle": [2, "never"],
+    "lines-around-directive": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "space-before-function-paren": [2, "never"],
+    "quotes": [2, "double", { "avoidEscape": true }]
+  }
+}
