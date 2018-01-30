@@ -13,12 +13,12 @@
   "scripts": {
     "build": "webpack --config webpack-prod.config.js",
     "client": "webpack -wd src/client/index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\" ",
     "jest": "jest",
     "lint": "eslint -- '**/*.js'",
     "server": "nodemon src/server/index.js",
     "start": "node src/server/index.js",
-    "prestart": "npm run build",
+    "prestart": "yarn run build",
     "prettier:verify": "prettier -l --print-width 100 '**/*.js'",
     "prettier": "yarn run prettier:verify --write",
     "test": "yarn run lint && yarn run prettier:verify && yarn run jest"
