@@ -4224,9 +4224,9 @@ lodash.clonedeep@^4.3.2:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
 
-lodash.isfunction@^3.0.8:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/lodash.isfunction/-/lodash.isfunction-3.0.8.tgz#4db709fc81bc4a8fd7127a458a5346c5cdce2c6b"
+lodash.isfunction@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/lodash.isfunction/-/lodash.isfunction-3.0.9.tgz#06de25df4db327ac931981d1bdb067e5af68d051"
 
 lodash.isobject@^3.0.2:
   version "3.0.2"
@@ -5585,6 +5585,13 @@ react-dom@^16.1.1:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
+react-popper@^0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-0.8.3.tgz#0f73333137c9fb0af6ec4074d2d0585a0a0461e1"
+  dependencies:
+    popper.js "^1.12.9"
+    prop-types "^15.6.0"
+
 react-router-dom@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.2.2.tgz#c8a81df3adc58bba8a76782e946cbd4eae649b8d"
@@ -5628,20 +5635,17 @@ react@^16.1.1:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-reactstrap-tether@1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/reactstrap-tether/-/reactstrap-tether-1.3.4.tgz#86d94d30216ffa34ceb2c626f4b9912c0d193894"
-
-reactstrap@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/reactstrap/-/reactstrap-4.8.0.tgz#eb350642a6282c79c7e1bd8d6f75c627131a42f6"
+reactstrap@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/reactstrap/-/reactstrap-5.0.0.tgz#d8948534df4816eddfb162a51643a499388e9228"
   dependencies:
     classnames "^2.2.3"
-    lodash.isfunction "^3.0.8"
+    lodash.isfunction "^3.0.9"
     lodash.isobject "^3.0.2"
     lodash.tonumber "^4.0.3"
     prop-types "^15.5.8"
-    reactstrap-tether "1.3.4"
+    react-popper "^0.8.3"
+    react-transition-group "^2.2.1"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
