@@ -35,7 +35,7 @@
     "jquery": "^3.3.1",
     "node-sass": "^4.7.2",
     "popper.js": "^1.12.9",
-    "postcss-loader": "^2.0.9",
+    "postcss-loader": "^2.1.4",
     "prop-types": "^15.6.0",
     "ramda": "^0.25.0",
     "react": "^16.1.1",
