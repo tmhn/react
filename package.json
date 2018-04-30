@@ -48,7 +48,7 @@
     "webpack": "^3.8.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.2",
     "babel-jest": "^21.2.0",
     "babel-loader": "^7.1.4",
