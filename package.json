@@ -41,7 +41,7 @@
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-router-dom": "^4.2.2",
-    "react-transition-group": "^2.2.1",
+    "react-transition-group": "^2.7.1",
     "reactstrap": "^4.8.0",
     "uglifyjs-webpack-plugin": "^1.2.4",
     "url-loader": "^0.6.2",
