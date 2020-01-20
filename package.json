@@ -33,7 +33,7 @@
     "file-loader": "^1.1.11",
     "history": "^4.7.2",
     "jquery": "^3.3.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "popper.js": "^1.12.9",
     "postcss-loader": "^2.0.9",
     "prop-types": "^15.6.0",
